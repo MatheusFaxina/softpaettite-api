@@ -1,0 +1,54 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty",
+      "name": "algamoney",
+      "type": "com.example.algamoney.api.config.property.AlgamoneyApiProperty"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty",
+      "name": "algamoney.mail",
+      "sourceMethod": "public com.example.algamoney.api.config.property.AlgamoneyApiProperty.Mail getMail() ",
+      "type": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Mail"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty",
+      "name": "algamoney.seguranca",
+      "sourceMethod": "public com.example.algamoney.api.config.property.AlgamoneyApiProperty.Seguranca getSeguranca() ",
+      "type": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Seguranca"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Mail",
+      "name": "algamoney.mail.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Mail",
+      "name": "algamoney.mail.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Mail",
+      "name": "algamoney.mail.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Mail",
+      "name": "algamoney.mail.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty",
+      "name": "algamoney.origin-permitida",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.algamoney.api.config.property.AlgamoneyApiProperty$Seguranca",
+      "name": "algamoney.seguranca.enable-https",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
